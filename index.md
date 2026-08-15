@@ -10,10 +10,7 @@ title: Work
       <p class="lede">
         Currently finishing my MSc in Artificial Intelligence at Imperial College
         London. As part of my dissertation, I am teaching Generative AI models
-        what the climate looked like during the last ice age.
-      </p>
-      <p>
-        Before Imperial, I spent a short while at a robotic-harvesting startup
+        what the climate looked like during the last ice age. Before Imperial, I spent a short while at a robotic-harvesting startup
         building computer-vision pipelines. I also worked for four years at
         Société Générale trading with hedge funds across equity derivatives and
         QIS. Earlier, I read Mathematics &amp;
