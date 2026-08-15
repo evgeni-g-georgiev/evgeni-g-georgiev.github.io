@@ -16,11 +16,7 @@ title: Work
         Before Imperial, I spent a short while at a robotic-harvesting startup
         building computer-vision pipelines. I also worked for four years at
         Société Générale trading with hedge funds across equity derivatives and
-        QIS. I generated data-driven trade ideas and built the Python tooling
-        behind them, using Bloomberg and internal vol-data APIs to flag
-        opportunities and to monitor large block trades, sectoral rotations,
-        tenor shifts, quarterly rolls and other client trading activity, which
-        led to live trades with clients. Earlier, I read Mathematics &amp;
+        QIS. Earlier, I read Mathematics &amp;
         Economics at the LSE, graduating with a First.
       </p>
       <ul class="inline-links">
