@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article class="wrap section">
+  <header class="page-head spread">
+    <p class="label">{{ page.eyebrow | default: "Page" }}</p>
+    <div>
+      <h1>{{ page.title }}</h1>
+      {%- if page.standfirst %}<p class="standfirst">{{ page.standfirst }}</p>{% endif %}
+      {%- if page.pdf %}<p><a class="btn" href="{{ page.pdf | relative_url }}">Download as PDF</a></p>{% endif %}
+    </div>
+  </header>
+
+  <div class="spread">
+    <p class="label"></p>
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+</article>

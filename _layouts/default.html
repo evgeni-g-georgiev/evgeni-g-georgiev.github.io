@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {%- feed_meta -%}
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav aria-label="Main">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Work</a>
+        <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog' %} aria-current="page"{% endif %}>Writing</a>
+        <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="wrap spread">
+      <p class="label">Elsewhere</p>
+      <div>
+        <ul class="inline-links">
+          <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+          {%- if site.linkedin_url and site.linkedin_url != "" %}
+          <li><a href="{{ site.linkedin_url }}">LinkedIn</a></li>
+          {%- endif %}
+          {%- if site.email and site.email != "" %}
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif %}
+        </ul>
+        <p class="fine">&copy; {{ site.time | date: "%Y" }} {{ site.author }}. Built with Jekyll, hosted on GitHub Pages.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

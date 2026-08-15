@@ -1,0 +1,44 @@
+# Add a project by copying a block. Order here = order on the page.
+
+- name: sparse_paleoclimate_field_reconstruction
+  title: >-
+    Generative Priors for Paleoclimate Data Assimilation: Spatially-Complete
+    Reconstruction of Dansgaard–Oeschger Temperature Fields across Marine
+    Isotope Stage 3 (MIS3)
+  repo: https://github.com/evgeni-g-georgiev/sparse_paleoclimate_field_reconstruction
+  link: ""
+  link_label: ""
+  blurb: >-
+    MSc dissertation at Imperial. Bayesian data assimilation combines an
+    imperfect climate simulation with 187 sparse, unevenly distributed
+    observations to produce complete gridded temperature fields with per-cell
+    uncertainty, for a period containing abrupt decadal-scale warmings. I show
+    that this period breaks the assumption underpinning the traditional
+    algorithms used in such settings, namely that climate states are drawn from
+    a multivariate Gaussian distribution. Projecting the states onto their
+    principal components reveals bimodality and heavy tails. Because a Gaussian
+    prior fails here, I use that bimodality to motivate an approach leveraging a
+    generative diffusion model prior and score-based data assimilation.
+  tags:
+    - Diffusion Models
+    - Climate Modelling
+    - Python & PyTorch
+
+- name: tinyguard
+  title: >-
+    Industrial Machine Anomaly Detection using Collaborative TinyML on Edge
+    Devices
+  repo: https://github.com/evgeni-g-georgiev/tinyguard
+  link: https://www.youtube.com/watch?v=D8IELthSQNI
+  link_label: "Watch the demo"
+  blurb: >-
+    A machine-listening system that runs end to end on a device with 256 KB of
+    SRAM. It learns what a healthy machine sounds like during a ten-minute
+    warm-up, then flags abnormal sound as it happens, with no cloud, no
+    labelled faults and no pre-training. Two Arduino boards around one fan
+    coordinate over Bluetooth and fall back to single-node operation when a
+    peer drops out.
+  tags:
+    - C / C++
+    - Python
+    - Edge ML

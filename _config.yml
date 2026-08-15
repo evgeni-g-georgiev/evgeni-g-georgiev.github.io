@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------
+# Site-wide settings. Anything marked TODO still needs your input.
+# ---------------------------------------------------------------
+
+title: Evgeni Georgiev
+description: >-
+  Personal site of Evgeni Georgiev, MSc Artificial Intelligence at Imperial
+  College London. Machine learning projects, writing, and CV.
+
+# TODO: if your repo is not named evgeni-g-georgiev.github.io, change this.
+url: "https://evgeni-g-georgiev.github.io"
+baseurl: ""
+
+author: Evgeni Georgiev
+github_username: evgeni-g-georgiev
+linkedin_username: evgeni-g-georgiev
+linkedin_url: "https://www.linkedin.com/in/evgeni-g-georgiev/"
+
+# TODO: add an address here if you want one shown, or leave it empty and
+# LinkedIn becomes the only contact route.
+email: ""
+
+# --- Build settings ---
+permalink: /blog/:title/
+markdown: kramdown
+timezone: Europe/London
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

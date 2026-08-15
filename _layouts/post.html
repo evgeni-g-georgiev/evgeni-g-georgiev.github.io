@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<article class="wrap section">
+  <header class="page-head spread">
+    <p class="label"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></p>
+    <div>
+      <h1>{{ page.title }}</h1>
+      {%- if page.standfirst %}<p class="standfirst">{{ page.standfirst }}</p>{% endif %}
+      {%- if page.tags.size > 0 %}
+      <ul class="tags">{% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+      {%- endif %}
+      {%- if page.pdf %}<p><a class="btn" href="{{ page.pdf | relative_url }}">Download as PDF</a></p>{% endif %}
+    </div>
+  </header>
+
+  <div class="spread">
+    <p class="label"></p>
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+
+  <div class="spread">
+    <p class="label"></p>
+    <div>
+      <p class="fine"><a href="{{ '/blog/' | relative_url }}">&larr; All writing</a></p>
+    </div>
+  </div>
+</article>
