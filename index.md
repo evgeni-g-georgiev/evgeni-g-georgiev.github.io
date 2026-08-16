@@ -17,7 +17,7 @@ title: Work
         <p class="lede">
         My current focus is on AI that reaches the places it is most needed. 
         That has meant sound anomaly fault detection for machines running on 
-        a chip with only 256KB of memory, generative models reconstructing past climate, 
+        a chip with only 256KB of memory, generative models for climate modelling, 
         and most recently writing on whether the EU AI Act’s rules for marking AI-edited 
         images can be made precise enough to enforce.
       </p>
