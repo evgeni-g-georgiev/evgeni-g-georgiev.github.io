@@ -12,8 +12,8 @@ title: Work
         London. As part of my dissertation, I am using Generative AI for climate modelling. 
         Before Imperial, I spent a short while at a robotic-harvesting startup
         building computer-vision pipelines. I also worked for four years at
-        Société Générale trading with hedge funds across equity derivatives and
-        QIS. Earlier, I read Mathematics &amp;
+        Société Générale's Global Markets team trading equity derivatives and
+        QIS products with hedge funds. Earlier, I read Mathematics &amp;
         Economics at the LSE, graduating with a First.
       </p>
       <ul class="inline-links">
