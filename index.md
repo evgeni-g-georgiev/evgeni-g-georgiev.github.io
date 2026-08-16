@@ -9,12 +9,10 @@ title: Work
       <h1 class="display">{{ site.author }}</h1>
       <p class="lede">
         Currently finishing my MSc in Artificial Intelligence at Imperial College
-        London. As part of my dissertation, I am using Generative AI for climate modelling. 
-        Before Imperial, I spent a short while at a robotic-harvesting startup
+        London. Before Imperial, I spent a short while at a robotic-harvesting startup
         building computer-vision pipelines. I also worked for four years at
         Société Générale's Global Markets team trading equity derivatives with hedge funds. 
         Earlier, I read Mathematics &amp; Economics at the LSE, graduating with a First.
-        First.
         </p>
         <p class="lede">
         My current focus is on AI that reaches the places it is most needed. 
