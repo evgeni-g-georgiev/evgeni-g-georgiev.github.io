@@ -14,7 +14,6 @@ title: Work
         building computer-vision pipelines. I also worked for four years at
         Société Générale's Global Markets team trading equity derivatives with hedge funds. 
         Earlier, I read Mathematics &amp; Economics at the LSE, graduating with a First.
-        
         My current focus is on AI that reaches the places it is most needed. 
         That has meant sound anomaly fault detection for machines running on 
         a chip with only 256KB of memory, generative models reconstructing past climate, 
